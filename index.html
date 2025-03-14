@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="#" class="logo">in</a>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-user-friends"></i>
+                    <span>Network</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Jobs</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-comment-dots"></i>
+                    <span>Messaging</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                </div>
+                <div class="nav-item profile">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Profile">
+                    <span>Me <i class="fas fa-caret-down"></i></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="cover-img"></div>
+                <div class="profile-info">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Profile">
+                    <h2>Mohd Faizan</h2>
+                    <p>Front End Developer</p>
+                </div>
+                <div class="profile-stats">
+                    <div class="stat">
+                        <span>Profile views</span>
+                        <strong>1,234</strong>
+                    </div>
+                    <div class="stat">
+                        <span>Post impressions</span>
+                        <strong>5,678</strong>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Feed -->
+        <section class="feed">
+            <!-- Create Post -->
+            <div class="create-post">
+                <div class="post-input">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Profile">
+                    <button>Start a post</button>
+                </div>
+                <div class="post-options">
+                    <button><i class="fas fa-image"></i> Photo</button>
+                    <button><i class="fas fa-video"></i> Video</button>
+                    <button><i class="fas fa-calendar"></i> Event</button>
+                    <button><i class="fas fa-newspaper"></i> Article</button>
+                </div>
+            </div>
+
+            <!-- Posts -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="User">
+                    <div>
+                        <h3>Sarah Johnson</h3>
+                        <p>Frontend Developer at Tech Corp</p>
+                        <span>2h ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Just launched our new website! Check it out and let me know what you think. #webdev #frontend</p>
+                    <img src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Post image">
+                </div>
+                <div class="post-actions">
+                    <button><i class="far fa-thumbs-up"></i> Like</button>
+                    <button><i class="far fa-comment"></i> Comment</button>
+                    <button><i class="far fa-share-square"></i> Share</button>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="User">
+                    <div>
+                        <h3>Michael Smith</h3>
+                        <p>Product Manager at Innovation Inc</p>
+                        <span>5h ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Excited to announce our latest product launch! Stay tuned for more updates. #productmanagement #tech</p>
+                </div>
+                <div class="post-actions">
+                    <button><i class="far fa-thumbs-up"></i> Like</button>
+                    <button><i class="far fa-comment"></i> Comment</button>
+                    <button><i class="far fa-share-square"></i> Share</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Sidebar -->
+        <aside class="news-sidebar">
+            <div class="news-card">
+                <h3>LinkedIn News</h3>
+                <ul>
+                    <li>
+                        <h4>Top news headline 1</h4>
+                        <p>1d ago • 1k readers</p>
+                    </li>
+                    <li>
+                        <h4>Top news headline 2</h4>
+                        <p>2d ago • 2k readers</p>
+                    </li>
+                    <li>
+                        <h4>Top news headline 3</h4>
+                        <p>3d ago • 3k readers</p>
+                    </li>
+                    <li>
+                        <h4>Top news headline 4</h4>
+                        <p>4d ago • 4k readers</p>
+                    </li>
+                    <li>
+                        <h4>Top news headline 5</h4>
+                        <p>5d ago • 5k readers</p>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
